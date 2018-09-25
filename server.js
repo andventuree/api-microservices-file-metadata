@@ -3,7 +3,6 @@
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
-// const upload = multer({ dest: "./uploads/" });
 const mongoose = require("mongoose");
 
 const app = express();
